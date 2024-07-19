@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+
+body{
+	width:100%;
+height:100%;
+background:-webkit-linear-gradient(#ffffff, #87cefa);
+background:linear-gradient(#ffffff, #87cefa);
+font-family:"メイリオ",sans-serif;
+font-size:24px;
+}
+#header{
+	position:relative;
+z-index:100;
+}
+.menulist{
+	float:left;
+margin: 0 auto;
+list-style-type:none;
+}
+.jumpbutton{
+	width:500px;
+height:30px;
+padding-top:8px;
+line-height:1;
+float:left;
+text-align:center;
+display:block;
+border-radius:15px;
+background-image:
+-moz-linear-gradient(
+rgb(255,255,255)0%,
+rgb(179,182,186)70%,
+rgb(169,173,184)90%,
+rgb(244,245,246)100%);
+
+background-image:
+-webkit-linear-gradient(
+rgb(255,255,255)0%,
+rgb(179,182,186)70%,
+rgb(169,173,184)90%,
+rgb(244,245,246)100%);
+
+background-image:
+linear-gradient(
+rgb(255,255,255)0%,
+rgb(179,182,186)70%,
+rgb(169,173,184)90%,
+rgb(244,245,246)100%);
+
+font-size:24px;
+text-shadow:0px 0px 2px rgba(0,0,0.45);
+color:#616161;
+text-decoration:none;
+z-index:100;
+}
+
+dd#tourokubutton a,
+input#tourokubutton{
+	display:block;
+color:#F0F0F0;
+border: 1px solid #C1C1C1;
+}
+
+dd#tourokubutton a,
+input#tourokubutton{
+	display:block;
+background-color:#FFCC66;
+border:1px solid #C1C1C1;
+box-shadow:inset 0px 0px 0px 1px rgba(255,255,255,1)
+text-shadow:0px 0px 2px rgba(0,0,0.45);
+border-radius:5px;
+padding:3px 0;
+text-align:center;
+color:#616161;
+text-decoration:none;
+font-weight:bold;
+font-size:36px;
+
+background-image:
+-moz-linear-gradient(
+rgb(175,238,238)0%,
+rgb(173,216,230)50%,
+rgb(176,196,222)100%);
+
+background-image:
+-webkit-linear-gradient(
+rgb(175,238,238)0%,
+rgb(173,216,230)50%,
+rgb(176,196,222)100%);
+background-image:
+linear-gradient(
+rgb(175,238,238)0%,
+rgb(173,216,230)50%,
+rgb(176,196,222)100%);
+}
+
+dd#tourokubutton a:hover,
+input#tourokubutton:hover{
+	background-color:#B3A966;
+box-shadow:inset 0px 0px 0px 1px rgba(220,217,193,1)
+color:#FFF;
+}

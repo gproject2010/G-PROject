@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="stylesheet" type="text/css" href="/G-pro_Service/CSS_Files/Index_Program.css"/>
+<title>会員情報の変更メニュー</title>
+</head>
+<base href="/G-pro_Service/passed/Kaiin_Henkou_Menu.html"/>
+<body background="/G-pro_Service/free_area/Ver2_Images/TopPage_Back.gif">
+<form action="/G-pro_Service/Lv2_Pass_Check" method="post">
+<p><img src="/G-pro_Service/image/GPRO_Logo.gif" width="232" height="67" border="0"></p>
+<p align="left"><br>
+<b><font size="+2">会員情報の変更</font><br>
+<br>
+<font size="+1">変更する情報の種類を選択してください</font><br>
+<br>
+<input type="radio" name="henkoujyouhou" value="ninsyou_jyouhou" checked />認証情報の変更(プレイヤーネーム、ID、パスワード、メールアドレス）<br>
+※1ヶ月につき1回のみ変更できます。<br>
+<br>
+<input type="radio" name="henkoujyouhou" value="player_jyouhou"/>プレイヤー情報の変更(本名、住所、職業、連絡先電話番号、秘密の質問)<br>
+<br>
+<input type="radio" name="henkoujyouhou" value="taikai_syori"/>退会処理
+<br>
+<font size="+1">機密性の高い情報にアクセスしようとしているため、以下のフォームに<br>
+変更前のID・パスワードをもう一度入力してください。</font><br>
+<br>
+※入力されたID・パスワードが正しくない場合はこのページがもう一度表示されます。
+<br>
+　　　　 ID:<input size="20" type="text" maxlength="20" name="id"/><br>
+<br>
+パスワード:<input size="20" type="password" maxlength="20" name="password"/></b></p>
+<p align="center"><br>
+<br>
+<!-- 　　　<input type="image" name="submit" src="/G-pro_Service/image/BacktoKaiinTop.gif" width="149" height="43" border="0">　　　　　　　　　　<input type="image" name="submit" alt="確定" src="/G-pro_Service/image/Soushin_Button.gif" width="58" height="45" border="0"/><br>
+</b></p>-->
+<input class="tourokubutton" type="submit" name="submit" value="変更ページへ">
+<dl>
+      <dd class="tourokubutton"><a href="/G-pro_Service/AuthenticationController">会員メニューへ戻る</a></dd>
+    </dl>
+</form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="G-pro_Service">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="commons-lang3-3.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-lang3-3.4/commons-lang3-3.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mail/mail">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl/jstl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.10-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.10-bin/mysql-connector-java-5.1.10-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pop3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/pop3/pop3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="imap.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/imap/imap">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.2.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.2.2/commons-fileupload-1.2.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-io-2.4/commons-io-2.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mailapi.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mailapi/mailapi">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.12-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.12-bin/mysql-connector-java-5.1.12-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dsn.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/dsn/dsn">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.3-javadoc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.3-javadoc/commons-fileupload-1.3-javadoc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jfreechart-1.0.14.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jfreechart-1.0.14/jfreechart-1.0.14">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="standard.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/standard/standard">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="smtp.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/smtp/smtp">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.3/commons-fileupload-1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/activation/activation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jcommon-1.0.17.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jcommon-1.0.17/jcommon-1.0.17">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="G-pro_Service"/>
+        <property name="java-output-path" value="/G-pro_Service/build/classes"/>
+    </wb-module>
+</project-modules>

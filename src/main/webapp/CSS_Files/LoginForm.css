@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+#loginform{
+	position:absolute;
+	display:none;
+width:500px;
+height:300px;
+text-align:center;
+padding:15px;
+line-height:40px;
+border-radius:2px 2px 2px 2px;
+z-index:1500;
+
+background-image:
+-moz-linear-gradient(
+rgb(255,255,255)0%,
+rgb(179,182,186)70%,
+rgb(169,173,184)90%,
+rgb(244,245,246)100%);
+
+background-image:
+-webkit-linear-gradient(
+rgb(255,255,255)0%,
+rgb(179,182,186)70%,
+rgb(169,173,184)90%,
+rgb(244,245,246)100%);
+
+background-image:
+linear-gradient(
+rgb(255,255,255)0%,
+rgb(179,182,186)70%,
+rgb(169,173,184)90%,
+rgb(244,245,246)100%);
+}
+
+input,select{
+	position:relative;
+top:2px;
+height:26px;
+font-size:100%;
+}
+
+.tourokubutton{
+	width:100%;
+margin:0 auto;
+display:block;
+background-color:#FFCC66;
+border:1px solid #C1C1C1;
+box-shadow:inset 0px 0px 0px 1px rgba(255,255,255,1)
+
+background-image:
+-moz-linear-gradient(
+rgb(175,238,238)0%,
+rgb(173,216,230)50%,
+rgb(176,196,222)100%);
+
+background-image:
+-webkit-linear-gradient(
+rgb(175,238,238)0%,
+rgb(173,216,230)50%,
+rgb(176,196,222)100%);
+background-image:
+linear-gradient(
+rgb(175,238,238)0%,
+rgb(173,216,230)50%,
+rgb(176,196,222)100%);
+
+font-size:36px;
+text-shadow:0px 0px 2px rgba(0,0,0.45);
+border-radius:5px;
+padding:3px 0;
+text-align:center;
+color:#616161;
+text-decoration:none;
+}
